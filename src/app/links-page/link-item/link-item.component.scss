@@ -1,0 +1,28 @@
+.button-link {
+    display: block;
+    border: 6px solid gray;
+    border-radius: 10px;
+    // box-shadow: 10px 5px 5px red;
+    box-shadow: 15px 10px 10px rgba(85, 34, 186, 0.996);
+    padding: 2rem;
+    text-align: center;
+    margin: 3rem 7rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.097);
+}
+
+.button-link:hover {
+    background-color: rgb(194, 190, 190);
+}
+
+.link-image-icon {
+    padding-right: 0.5rem;
+}
+
+@media (max-width: 515px) {
+    .button-link {
+        margin: 3rem 2rem;
+    }
+  }
